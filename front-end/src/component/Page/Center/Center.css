@@ -1,0 +1,15 @@
+.center {
+  background: #CCCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.center img {
+  z-index: 1;
+  border-radius: 5%;
+  max-height: 70%; 
+  /* margin-top: -17rem; */
+  margin-left: 30%;
+}

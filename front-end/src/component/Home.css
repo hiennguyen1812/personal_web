@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 15% 60%;
+    height: 100vh; /* Để lấp đầy toàn bộ chiều cao của màn hình */
+  }
+  
+  .left, .center, .right {
+    border: 1px solid none; /* Để thấy rõ kích thước của mỗi phần */
+  }
+  

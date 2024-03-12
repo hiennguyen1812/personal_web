@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: var(--color-black);
+    justify-content: center;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 0px 10px 2px;
+    list-style: none;
+    height: 60px;
+    position: relative;
+  }
+
+  .nav-text img {
+    width: 8rem;
+  }
+  
+.nav-text::after,
+.nav-text::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(11, 10, 10);
+    transition: all 0.6s ease-in-out;
+}
+
+.nav-text::after {
+    top: 0;
+    right: 50;
+    transform-origin: right;
+
+}
+
+.nav-text::before {
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+}
+
+.nav-text:hover::after,
+.nav-text:hover::before {
+    width: 50%;
+}
+  
+
+@media screen and (max-width:800px) {
+    .nav-text span {
+        visibility: hidden; 
+    }
+    .nav-text {
+        font-size: 1.5rem;
+    }
+    .nav-text img {
+        width: 4rem;
+      }
+}

@@ -1,4 +1,4 @@
-import about from "../image/aboutme.jpg";
+import about from "../image/avatar.jpg";
 import "./About.css"
 const About = () => {
   return (
@@ -13,11 +13,16 @@ const About = () => {
           information technology very interesting and magical
         </p>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="about__info">
         <div className="about__info__img">
           <img src={about} />
         </div>
-        <div>
+        <div className="about__info_basic">
           <h3>Basic info</h3>
           <ul>
             <li>Date of birth: 18 December 2000</li>

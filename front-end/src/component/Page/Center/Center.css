@@ -8,8 +8,8 @@
 
 .center img {
   z-index: 1;
-  border-radius: 5%;
+  /* border-radius: 50%; */
   max-height: 70%; 
-  /* margin-top: -17rem; */
+  max-width: 150%;
   margin-left: 30%;
 }
